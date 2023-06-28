@@ -1,0 +1,51 @@
+[
+  {
+    "fullName": "January",
+    "numDays": 30
+  },
+  {
+    "fullName": "February",
+    "numDays": 28,
+    "leap": true
+  },
+  {
+    "fullName": "March",
+    "numDays": 31
+  },
+  {
+    "fullName": "April",
+    "numDays": 30
+  },
+  {
+    "fullName": "May",
+    "numDays": 31
+  },
+  {
+    "fullName": "June",
+    "numDays": 30
+  },
+  {
+    "fullName": "July",
+    "numDays": 31
+  },
+  {
+    "fullName": "August",
+    "numDays": 31
+  },
+  {
+    "fullName": "September",
+    "numDays": 30
+  },
+  {
+    "fullName": "October",
+    "numDays": 31
+  },
+  {
+    "fullName": "November",
+    "numDays": 30
+  },
+  {
+    "fullName": "December",
+    "numDays": 31
+  }
+]
