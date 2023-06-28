@@ -6,15 +6,12 @@ module.exports = {
     title: `Captains Log`,
   },
   plugins: [
-    "gatsby-plugin-image",
-    "gatsby-plugin-sharp",
     "gatsby-plugin-mdx",
-    "gatsby-transformer-sharp",
+    "gatsby-transformer-json",
     {
       resolve: "gatsby-source-filesystem",
       options: {
-        name: `blog`,
-        path: `${__dirname}/blog`,
+        path: "./src/data",
       },
     },
   ],
