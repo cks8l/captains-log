@@ -4,15 +4,7 @@ import { StaticImage } from "gatsby-plugin-image";
 import Seo from "../components/seo";
 
 const IndexPage = () => {
-  return (
-    <Layout pageTitle="Home">
-      <p>Cool</p>
-      <StaticImage
-        alt="Metroparks Toledo's green roof"
-        src="../images/464.jpg"
-      />
-    </Layout>
-  );
+  return <Layout pageTitle="Home"></Layout>;
 };
 
 export const Head = () => <Seo title="Home" />;
