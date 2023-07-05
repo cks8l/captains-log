@@ -15,9 +15,8 @@ const ArchivesPage = ({ data }) => {
   ).getDay();
   const calendarDays = [];
 
-  console.log(firstDayOfMonth);
-
   for (let dayCount = 1; dayCount <= 31; dayCount++) {
+    // On the first iteration, fill in days up to the 1st day of the month with empty list items
     if (dayCount === 1) {
       for (
         let firstDayCount = 0;
@@ -29,7 +28,7 @@ const ArchivesPage = ({ data }) => {
     }
 
     if (dayCount === currentDay) {
-      // The current day should be highlighted a different color
+      // The current day should have its own class
       calendarDays.push(
         <li className={`${archivesStyle.day} ${archivesStyle.today}`}>
           {dayCount}
@@ -39,8 +38,8 @@ const ArchivesPage = ({ data }) => {
       // If the month actually has this day, push a regular day
       calendarDays.push(<li className={archivesStyle.day}>{dayCount}</li>);
     } else {
-      // Otherwise, fill it with more empty <li>'s
-      calendarDays.push(<li></li>);
+      // Otherwise, fill it with another empty <li>'s
+      calendarDays.push(<li className={archivesStyle.day}></li>);
     }
   }
 
@@ -70,6 +69,6 @@ export const dateData = graphql`
   }
 `;
 
-export const Head = () => <Seo title="Archives" />;
+export const Head = () => <Seo title="Archives" desc="Browse the archives of posts logged on this site." />;
 
 export default ArchivesPage;

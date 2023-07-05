@@ -7,6 +7,11 @@ const MorePage = ({ data }) => {
   return <Layout pageTitle="More Info"></Layout>;
 };
 
-export const Head = () => <Seo title="More Info" />;
+export const Head = () => (
+  <Seo
+    title="More Info"
+    desc="A short bio on the author of these posts, as well as links to other web projects."
+  />
+);
 
 export default MorePage;
