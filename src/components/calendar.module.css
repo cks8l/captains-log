@@ -22,7 +22,8 @@
   grid-row: 2;
 }
 
-.next-month, .prev-month {
+.next-month,
+.prev-month {
   justify-self: center;
   align-self: center;
 }
