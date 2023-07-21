@@ -1,50 +1,62 @@
 [
   {
+    "year": 2023,
     "fullName": "January",
     "numDays": 30
   },
   {
+    "year": 2023,
     "fullName": "February",
     "numDays": 28,
     "leap": true
   },
   {
+    "year": 2023,
     "fullName": "March",
     "numDays": 31
   },
   {
+    "year": 2023,
     "fullName": "April",
     "numDays": 30
   },
   {
+    "year": 2023,
     "fullName": "May",
     "numDays": 31
   },
   {
+    "year": 2023,
     "fullName": "June",
     "numDays": 30
   },
   {
+    "year": 2023,
     "fullName": "July",
     "numDays": 31
   },
   {
+    "year": 2023,
     "fullName": "August",
     "numDays": 31
   },
   {
+    "year": 2023,
     "fullName": "September",
     "numDays": 30
   },
   {
+    "year": 2023,
     "fullName": "October",
     "numDays": 31
   },
   {
+    "year": 2023,
     "fullName": "November",
     "numDays": 30
   },
   {
+    "year": 2023,
     "fullName": "December",
     "numDays": 31
   }
